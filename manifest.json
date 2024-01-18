@@ -3,6 +3,7 @@
   "name": "Pokernow Ledger",
   "version": "2.0.2",
   "description": "Check PokerNow website ledger and perform settlement",
+  "icons": {"128":"poker.png"},
   "permissions": ["activeTab", "storage"],
   "content_scripts": [
     {
