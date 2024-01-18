@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Pokernow Ledger",
+  "version": "2.0.2",
+  "description": "Check PokerNow website ledger and perform settlement",
+  "permissions": ["activeTab", "storage"],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www.pokernow.club/games/*",
+        "https://www.pokernow.club/games/*"
+      ],
+      "js": ["content_script.js"]
+    }
+  ], 
+  "action": {
+  }
+}
