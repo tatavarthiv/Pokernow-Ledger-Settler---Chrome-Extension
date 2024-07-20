@@ -11,9 +11,10 @@
         "http://www.pokernow.club/games/*",
         "https://www.pokernow.club/games/*"
       ],
-      "js": ["content_script.js"]
+      "js": ["settle_ledger.js"]
     }
   ], 
   "action": {
+    "default_popup": "popup.html"
   }
 }
